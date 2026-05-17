@@ -1,0 +1,45 @@
+/* Ümumi CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #1f2937;
+  background-color: #f7f9fc;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Ümumi bölmə stilləri */
+.section {
+  padding: 75px 0;
+}
+
+.light {
+  background-color: #eef4f8;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 30px;
+  color: #0f2a44;
+  margin-bottom: 35px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
