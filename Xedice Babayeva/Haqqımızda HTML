@@ -1,0 +1,13 @@
+<!-- Haqqımızda bölməsi -->
+<section class="section light" id="about">
+  <div class="container about">
+    <div class="about-text">
+      <h2 class="section-title">Haqqımızda</h2>
+      <p>AzTech Team Azərbaycan Texniki Universitetinin 5 nəfərlik tələbə komandası tərəfindən yaradılmış sadə IT layihəsidir. Məqsədimiz praktiki biliklərimizi istifadə edərək veb sayt, kiber təhlükəsizlik və IT dəstək sahəsində faydalı həllər təqdim etməkdir.</p>
+    </div>
+    <div class="about-box">
+      <h3>5 nəfərlik komanda</h3>
+      <p>AzTU tələbələri olaraq öyrəndiklərimizi real layihə formasında tətbiq edirik.</p>
+    </div>
+  </div>
+</section>
