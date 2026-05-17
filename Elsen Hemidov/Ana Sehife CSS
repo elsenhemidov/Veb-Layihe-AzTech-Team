@@ -1,1 +1,109 @@
-.
+
+
+/* Başlıq və naviqasiya */
+.header {
+  background-color: #0f2a44;
+  color: #ffffff;
+  padding: 16px 0;
+  box-shadow: 0 4px 18px rgba(15, 42, 68, 0.22);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo-img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  display: block;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #0f2a44;
+  background-color: #ffffff;
+}
+
+/* Ana səhifə bölməsi */
+.hero {
+  color: #ffffff;
+  padding: 105px 0;
+  text-align: center;
+  background: linear-gradient(135deg, #0f2a44 0%, #12395d 55%, #1d5b89 100%);
+}
+
+.hero-content {
+  max-width: 780px;
+}
+
+.hero-label {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 8px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 20px;
+  color: #dceeff;
+  background-color: rgba(255, 255, 255, 0.08);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.hero h2 {
+  font-size: 44px;
+  line-height: 1.2;
+  margin-bottom: 18px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #0f2a44;
+  padding: 13px 26px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.16);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #e8f1f8;
+  transform: translateY(-2px);
+}
