@@ -1,1 +1,28 @@
-.
+<!-- Başlıq və naviqasiya -->
+<header class="header">
+  <div class="container nav">
+    <div class="brand">
+      <img src="logo.png" alt="AzTech Team Logo" class="logo-img">
+      <h1>AzTech Team</h1>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Ana səhifə</a></li>
+        <li><a href="#services">Xidmətlər</a></li>
+        <li><a href="#about">Haqqımızda</a></li>
+        <li><a href="#projects">Layihələr</a></li>
+        <li><a href="#contact">Əlaqə</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- Ana səhifə bölməsi -->
+<section class="hero" id="home">
+  <div class="container hero-content">
+    <p class="hero-label">Azərbaycan Texniki Universiteti tələbə komandası</p>
+    <h2>AzTU tələbələrindən sadə və etibarlı IT həlləri</h2>
+    <p>Biz veb saytlar hazırlayır, təhlükəsizliyi gücləndirir və gündəlik IT problemlərinə dəstək göstəririk.</p>
+    <a class="button" href="#contact">Bizimlə əlaqə</a>
+  </div>
+</section>
