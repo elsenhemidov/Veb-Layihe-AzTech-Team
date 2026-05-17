@@ -1,0 +1,25 @@
+Xidmetler CSS:
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #dbe4ec;
+  border-radius: 12px;
+  padding: 26px;
+  box-shadow: 0 8px 22px rgba(15, 42, 68, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: #8bb9dc;
+  box-shadow: 0 14px 28px rgba(15, 42, 68, 0.15);
+}
+
+.card h3 {
+  color: #0f2a44;
+  margin-bottom: 12px;
+}
+
+.card p {
+  color: #4b5563;
+}
